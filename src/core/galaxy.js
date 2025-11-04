@@ -53,7 +53,7 @@ export class Galaxy {
     }
 
     if (type === GALAXY_TYPE.REMOTE) {
-      amount *= Math.pow(1.002, galaxies - (Galaxy.remoteStart - 1));
+      amount *= Math.pow(1.0018, galaxies - (Galaxy.remoteStart - 1));
     }
 
     amount -= Effects.sum(InfinityUpgrade.resetBoost);
@@ -67,7 +67,7 @@ export class Galaxy {
   }
 
   static get costMult() {
-    return Effects.min(NormalChallenge(10).isRunning ? 90 : 60, TimeStudy(42));
+    return Effects.min(NormalChallenge(10).isRunning ? 90 : 50, TimeStudy(42));
   }
 
   static get baseCost() {
