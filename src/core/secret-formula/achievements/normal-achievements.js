@@ -177,8 +177,8 @@ export const normalAchievements = [
     },
     checkRequirement: () => player.galaxies === 1,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
-    get reward() { return `Multiply starting tick speed by ${format(1.02, 2, 2)}.`; },
-    effect: 1 / 1.02
+    get reward() { return `Multiply starting tick speed by ${format(1.05, 2, 2)}.`; },
+    effect: 1 / 1.05
   },
   {
     id: 37,
@@ -260,8 +260,8 @@ export const normalAchievements = [
     get description() { return `Get more than ${format(DC.E29)} ticks per second.`; },
     checkRequirement: () => Tickspeed.current.exponent <= -26,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `Multiply starting tickspeed by ${formatX(1.02, 0, 2)}.`; },
-    effect: 0.98
+    get reward() { return `Multiply starting tickspeed by ${formatX(1.05, 0, 2)}.`; },
+    effect: 0.95
   },
   {
     id: 46,
@@ -426,8 +426,8 @@ export const normalAchievements = [
     get description() { return `Get more than ${format(DC.E58)} ticks per second.`; },
     checkRequirement: () => Tickspeed.current.exponent <= -55,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `Multiply starting tickspeed by ${formatX(1.02, 0, 2)}.`; },
-    effect: 0.98
+    get reward() { return `Multiply starting tickspeed by ${formatX(1.05, 0, 2)}.`; },
+    effect: 0.95
   },
   {
     id: 67,
@@ -1379,7 +1379,7 @@ export const normalAchievements = [
   {
     id: 188,
     name: "The End",
-    description: "Beat the game.",
+    description: "Escape the Doomed Reality.",
     checkRequirement: () => GameEnd.endState > END_STATE_MARKERS.GAME_END && !GameEnd.removeAdditionalEnd,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
