@@ -117,7 +117,7 @@ export const secretAchievements = [
   },
   {
     id: 33,
-    name: "Not like you could get this achivement...",
+    name: "Not like you could get this achievement...",
     description: "you haxor"
   },
   {
