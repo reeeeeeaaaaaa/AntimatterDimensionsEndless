@@ -8,6 +8,15 @@ export const changelog = [
    *  @property {function: @return String} info  Text body of information for the entry.
    * }
    */
+    {
+    date: [2026, 1, 8],
+    name: "Beta-1 Pre-infinity",
+    info: `
+<li>Nerfed and un-nerfed galaxies</li>
+<li>Added a reward to r18</li>
+<li>Buffed dimboosts, galaxy costs, and ts42</li>
+`
+  },
   {
     date: [2024, 8, 12],
     name: "Hi Ra",
