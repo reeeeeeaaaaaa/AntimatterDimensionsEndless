@@ -203,6 +203,13 @@ export const infinityUpgrades = {
       `Start every reset with ${formatInt(4)} Dimension Boosts, automatically unlocking the 8th Antimatter Dimension;
       and an Antimatter Galaxy`,
   },
+  skipReset4: {
+    id: "skipReset4",
+    cost: 600,
+    checkRequirement: () => InfinityUpgrade.skipResetGalaxy.isBought,
+    description: () =>
+      `Start every reset with ${formatInt(5)} Dimension Boosts, automatically unlocking sacrifice`
+  },
   ipOffline: {
     id: "ipOffline",
     cost: 1000,
