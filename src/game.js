@@ -32,7 +32,7 @@ export function playerInfinityUpgradesOnReset() {
       "skipReset1", "skipReset2", "unspentBonus",
       "27Mult", "18Mult", "36Mult", "resetMult",
       "skipReset3", "passiveGen", "45Mult",
-      "resetBoost", "galaxyBoost", "skipResetGalaxy",
+      "resetBoost", "galaxyBoost", "skipResetGalaxy", "skipReset4",
       "totalMult", "currentMult", "postGalaxy",
       "challengeMult", "achievementMult", "infinitiedMult",
       "infinitiedGeneration", "autoBuyerUpgrade", "autobuyMaxDimboosts",
