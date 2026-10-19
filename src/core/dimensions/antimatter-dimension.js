@@ -633,6 +633,7 @@ export const AntimatterDimensions = {
     if (NormalChallenge(7).isRunning) return DC.D2.min(1 + DimBoost.totalBoosts / 5);
 
     let mult = DC.D2.plusEffectsOf(
+      Achievement(18).effects.buyTenMult
       Achievement(141).effects.buyTenMult,
       EternityChallenge(3).reward
     );
