@@ -9,6 +9,27 @@ export const changelog = [
    * }
    */
     {
+    date: [2026, 10, 19],
+    name: "the update where it doesn't work",
+    info: `
+some of you need to drink more water
+<br>
+<br>
+<b>Added things:</b><br>
+<ul>
+<li>totally functional IU20</li>
+<li>MORE NEWS</li>
+<li>made the r18 reward work for once</li>
+</ul>
+<br>
+<b>Text change:</b><br>
+<ul>
+<li>The horse update. Also IOS totally released in 2025.</li>
+</ul>
+<br>
+`
+  },
+    {
     date: [2026, 1, 8],
     name: "Beta-1 Pre-infinity",
     info: `
@@ -18,7 +39,7 @@ export const changelog = [
 `
   },
   {
-    date: [2026, 7, 17],
+    date: [2025, 7, 17],
     name: "Celebrate iOS Version Release",
     info: `
 Celebrating the official iOS launch! It's finally time to perform a Big Crunch right in your pocket.

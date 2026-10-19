@@ -2594,6 +2594,11 @@ export const news = [
       fast. Update, just 5 hours.`
   },
   {
+    id: "a391",
+    text:
+      `Its TV Time!`
+  },
+  {
     id: "l1",
     text: "You just made your 1,000,000,000,000,000th antimatter. This one tastes like chicken.",
     get unlocked() { return Currency.antimatter.exponent === 15; }
@@ -3278,6 +3283,17 @@ export const news = [
       average per-player credit earn rates on a daily basis, and we'll be making constant adjustments to ensure that
       players have challenges that are compelling, rewarding, and of course attainable via gameplay.`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
+  },
+  {
+    id: "l89",
+    text:
+      `9th dimension is calling`,
+    get unlocked() {
+    return DimBoost.totalBoosts >= 5 ||
+    player.galaxies > 0 ||
+    PlayerProgress.infinityUnlocked();
+  }
+
   },
   {
     id: "r1",
